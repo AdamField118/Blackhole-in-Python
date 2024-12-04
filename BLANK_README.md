@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.webp" alt="Logo" width="1040" height="600">
+    <img src="images/logo.webp" alt="Logo" width="520" height="300">
   </a>
 
 <h3 align="center">How to Code a Blackhole in Python</h3>

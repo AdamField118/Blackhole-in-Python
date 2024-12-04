@@ -9,16 +9,9 @@
 <h3 align="center">How to Code a Blackhole in Python</h3>
 
   <p align="center">
-    Let's use python and matplotlib to gain an intuition for coding difficult physics problems!
+    Let's use python and matplotlib to gain an intuition for coding difficult physics problems! Thank you to my advisor Dominic Chang at Harvard BHI for teaching me how to do this.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://blog.devgenius.io/how-to-draw-a-blackhole-in-python-e674b831431a"><strong>Source Material »</strong></a>
   </p>
 </div>
 

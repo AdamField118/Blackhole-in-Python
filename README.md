@@ -1,3 +1,3 @@
 # Blackhole-in-Python
 
-$/frac{5}{6}$
+$\frac{5}{6}$

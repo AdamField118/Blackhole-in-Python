@@ -9,7 +9,7 @@
 <h3 align="center">How to Code a Blackhole in Python</h3>
 
   <p align="center">
-    project_description
+    Let's use python and matplotlib to gain an intuition for coding difficult physics problems!
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />

@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.webp" alt="Logo" width="160" height="120">
+    <img src="images/logo.webp" alt="Logo" width="240" height="180">
   </a>
 
 <h3 align="center">project_title</h3>

@@ -6,7 +6,7 @@
     <img src="images/logo.webp" alt="Logo" width="300" height="150">
   </a>
 
-<h3 align="center">How to Code a Blackhole in Python</h3>
+<h3 align="center">How to Code a Blackhole in Python$\frac{3}{5}$</h3>
 
   <p align="center">
     project_description

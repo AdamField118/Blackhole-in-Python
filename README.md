@@ -2,14 +2,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/AdamField118/Blackhole-in-Python">
     <img src="images/logo.webp" alt="Logo" width="520" height="300">
   </a>
 
 <h3 align="center">How to Code a Blackhole in Python</h3>
 
   <p align="center">
-    Let's use python and matplotlib to gain an intuition for coding difficult physics problems! Thank you to my advisor Dominic Chang at Harvard BHI for teaching me how to do this.
+    Let's use python and matplotlib to gain an intuition for coding difficult physics problems! Thank you to my advisor Dominic Chang at Harvard BHI for making and teaching me how to do this.
     <br />
     <a href="https://blog.devgenius.io/how-to-draw-a-blackhole-in-python-e674b831431a"><strong>Source Material »</strong></a>
   </p>
@@ -28,16 +28,12 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#set-up">Set-up</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#pseudocode">Pseudocode</a></li>
+    <li><a href="#breakdown-of-code">Breakdown of Code</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -45,7 +41,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This mini lecture is made to guide you through the process of coding a black hole in python but also to gain a more fundamental way of thinking when trying to code a physics problem. 
+
+My goal is that you are able to comment the code provided on your own, knowing what the functons do conceptually, along with feeling more confident with coding physical systems.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,77 +65,45 @@ Go into 'src', there you'll have the choice of a jupyter notebook or regular pyt
 I suggest clicking the badge above for Jupyter notebook and importing the .ipynb file into that, since WPI gives us JupyterHub!
 I've included the notes below in the .ipynb file, so if you want everything in one place I highly suggest that.
 
-### Prerequisites
+### Set-up
+Either use the Jupyter Hub link for WPI, or make sure you have python downloaded. You can easily make sure you have python, or any other program downloaded by typing,
+```sh
+python -V
+```
+, this should return the latest version of python.
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+Once you have the python, run command prompt as administrator and type of following code.
+* scipy
   ```sh
-  npm install npm@latest -g
+  pip install scipy
+  ```
+* matplotlib
+  ```sh
+  pip install matplotlib
   ```
 
-### Installation
+<!-- Pseudocode -->
+## Pseudocode
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+So we want to trace rays from uniform rings in the bulk space of a black hole to our observer.
+<div align=centering>
+  <image <img src="images/raytracing.gif" alt="Logo" width="340" height="432">>
+</div>
+
+- [ ] Step 1
+- [ ] Step 2
+- [ ] Step 3
+    - [ ] Details
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Breakdown of Code -->
+## Breakdown of Code
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

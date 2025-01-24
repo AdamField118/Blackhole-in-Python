@@ -4,7 +4,6 @@ from scipy.integrate import quad
 from scipy import optimize
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.animation import FuncAnimation
 
 #the determinate of the first equation in "the implementation"
 def radial_potential(r, b):
